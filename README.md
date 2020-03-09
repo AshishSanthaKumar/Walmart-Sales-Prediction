@@ -35,14 +35,14 @@ This file is identical to train.csv, except we have withheld the weekly sales. Y
 
 This file contains additional data related to the store, department, and regional activity for the given dates. It contains the following fields:
 
-a. Store - the store number
-b. Date - the week
-c. Temperature - average temperature in the region
-d. Fuel_Price - cost of fuel in the region
-e. MarkDown1-5 - anonymized data related to promotional markdowns that Walmart is running. MarkDown data is only available after Nov 2011, and is not available for all stores all the time. Any missing value is marked with an NA.
-f. CPI - the consumer price index
-g. Unemployment - the unemployment rate
-h. IsHoliday - whether the week is a special holiday week
+1. Store - the store number
+2. Date - the week
+3. Temperature - average temperature in the region
+4. Fuel_Price - cost of fuel in the region
+5. MarkDown1-5 - anonymized data related to promotional markdowns that Walmart is running. MarkDown data is only available after Nov 2011, and is not available for all stores all the time. Any missing value is marked with an NA.
+6. CPI - the consumer price index
+7. Unemployment - the unemployment rate
+8. IsHoliday - whether the week is a special holiday week
 
 For convenience, the four holidays fall within the following weeks in the dataset (not all holidays are in the data):
 
