@@ -44,10 +44,10 @@ Unemployment - the unemployment rate
 IsHoliday - whether the week is a special holiday week
 For convenience, the four holidays fall within the following weeks in the dataset (not all holidays are in the data):
 
-Super Bowl: 12-Feb-10, 11-Feb-11, 10-Feb-12, 8-Feb-13
-Labor Day: 10-Sep-10, 9-Sep-11, 7-Sep-12, 6-Sep-13
-Thanksgiving: 26-Nov-10, 25-Nov-11, 23-Nov-12, 29-Nov-13
-Christmas: 31-Dec-10, 30-Dec-11, 28-Dec-12, 27-Dec-13
+1. Super Bowl: 12-Feb-10, 11-Feb-11, 10-Feb-12, 8-Feb-13
+2. Labor Day: 10-Sep-10, 9-Sep-11, 7-Sep-12, 6-Sep-13
+3. Thanksgiving: 26-Nov-10, 25-Nov-11, 23-Nov-12, 29-Nov-13
+4. Christmas: 31-Dec-10, 30-Dec-11, 28-Dec-12, 27-Dec-13
 
 **Walmart_Sales.ipynb**
 
