@@ -21,12 +21,13 @@ This file contains anonymized information about the 45 stores, indicating the ty
 
 This is the historical training data, which covers to 2010-02-05 to 2012-11-01. Within this file you will find the following fields:
 
-Store - the store number
-Dept - the department number
-Date - the week
-Weekly_Sales -  sales for the given department in the given store
-IsHoliday - whether the week is a special holiday week
-test.csv
+1. Store - the store number
+2. Dept - the department number
+3. Date - the week
+4. Weekly_Sales -  sales for the given department in the given store
+5. IsHoliday - whether the week is a special holiday week
+
+**test.csv**
 
 This file is identical to train.csv, except we have withheld the weekly sales. You must predict the sales for each triplet of store, department, and date in this file.
 
@@ -34,14 +35,15 @@ This file is identical to train.csv, except we have withheld the weekly sales. Y
 
 This file contains additional data related to the store, department, and regional activity for the given dates. It contains the following fields:
 
-Store - the store number
-Date - the week
-Temperature - average temperature in the region
-Fuel_Price - cost of fuel in the region
-MarkDown1-5 - anonymized data related to promotional markdowns that Walmart is running. MarkDown data is only available after Nov 2011, and is not available for all stores all the time. Any missing value is marked with an NA.
-CPI - the consumer price index
-Unemployment - the unemployment rate
-IsHoliday - whether the week is a special holiday week
+a. Store - the store number
+b. Date - the week
+c. Temperature - average temperature in the region
+d. Fuel_Price - cost of fuel in the region
+e. MarkDown1-5 - anonymized data related to promotional markdowns that Walmart is running. MarkDown data is only available after Nov 2011, and is not available for all stores all the time. Any missing value is marked with an NA.
+f. CPI - the consumer price index
+g. Unemployment - the unemployment rate
+h. IsHoliday - whether the week is a special holiday week
+
 For convenience, the four holidays fall within the following weeks in the dataset (not all holidays are in the data):
 
 1. Super Bowl: 12-Feb-10, 11-Feb-11, 10-Feb-12, 8-Feb-13
