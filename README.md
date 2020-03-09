@@ -13,11 +13,11 @@ In addition, Walmart runs several promotional markdown events throughout the yea
 
 **Data Files**
 
-**stores.csv
+**stores.csv**
 
 This file contains anonymized information about the 45 stores, indicating the type and size of store.
 
-**train.csv
+**train.csv**
 
 This is the historical training data, which covers to 2010-02-05 to 2012-11-01. Within this file you will find the following fields:
 
@@ -30,7 +30,7 @@ test.csv
 
 This file is identical to train.csv, except we have withheld the weekly sales. You must predict the sales for each triplet of store, department, and date in this file.
 
-**features.csv
+**features.csv**
 
 This file contains additional data related to the store, department, and regional activity for the given dates. It contains the following fields:
 
@@ -49,11 +49,11 @@ Labor Day: 10-Sep-10, 9-Sep-11, 7-Sep-12, 6-Sep-13
 Thanksgiving: 26-Nov-10, 25-Nov-11, 23-Nov-12, 29-Nov-13
 Christmas: 31-Dec-10, 30-Dec-11, 28-Dec-12, 27-Dec-13
 
-$$Walmart_Sales.ipynb$$
+**Walmart_Sales.ipynb**
 
--Importing Data
--Data Exploration
--Spliting Training and Validation Data Set
--Cleaning the data
--Training models using Decision Tree Regressor, Bayesian Ridge, Linear Regression, Gradient Booster Regression and Random Forest.
--Predicting sales on both validation and the test data.
+1. Importing Data
+2. Data Exploration
+3. Spliting Training and Validation Data Set
+4. Cleaning the data
+5. Training models using Decision Tree Regressor, Bayesian Ridge, Linear Regression, Gradient Booster Regression and Random Forest.
+6. Predicting sales on both validation and the test data.
